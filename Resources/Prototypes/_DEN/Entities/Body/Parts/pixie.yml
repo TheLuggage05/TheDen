@@ -1,0 +1,117 @@
+- type: entity
+  id: PartPixie
+  parent: [BaseItem, BasePart]
+  name: "pixie body part"
+  abstract: true
+  components:
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: PixieBlood
+        Quantity: 10
+
+- type: entity
+  id: TorsoPixie
+  name: "pixie torso"
+  parent: [PartPixie, BaseTorso]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "torso"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 10
+      - ReagentId: PixieBlood
+        Quantity: 20
+
+- type: entity
+  id: HeadPixie
+  name: "pixie head"
+  parent: [PartPixie, BaseHead]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "head"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: PixieBlood
+        Quantity: 10
+
+- type: entity
+  id: LeftArmPixie
+  name: "left pixie arm"
+  parent: [PartPixie, BaseLeftArm]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "l_arm"
+
+- type: entity
+  id: RightArmPixie
+  name: "right pixie arm"
+  parent: [PartPixie, BaseRightArm]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandPixie
+  name: "left pixie hand"
+  parent: [PartPixie, BaseLeftHand]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "l_hand"
+
+- type: entity
+  id: RightHandPixie
+  name: "right pixie hand"
+  parent: [PartPixie, BaseRightHand]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "r_hand"
+
+- type: entity
+  id: LeftLegPixie
+  name: "left pixie leg"
+  parent: [PartPixie, BaseLeftLeg]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "l_leg"
+
+- type: entity
+  id: RightLegPixie
+  name: "right pixie leg"
+  parent: [PartPixie, BaseRightLeg]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "r_leg"
+
+- type: entity
+  id: LeftFootPixie
+  name: "left pixie foot"
+  parent: [PartPixie, BaseLeftFoot]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "l_foot"
+
+- type: entity
+  id: RightFootPixie
+  name: "right pixie foot"
+  parent: [PartPixie, BaseRightFoot]
+  components:
+  - type: Sprite
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: "r_foot"

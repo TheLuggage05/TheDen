@@ -1,0 +1,50 @@
+- type: body
+  id: Pixie
+  name: "pixie"
+  root: torso
+  slots:
+    head:
+      part: HeadPixie
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    torso:
+      part: TorsoPixie
+      connections:
+      - right_arm
+      - left_arm
+      - right_leg
+      - left_leg
+      - head # shitmed
+      organs:
+        heart: OrganHumanHeart
+        lungs: OrganHumanLungs
+        stomach: OrganHumanStomach
+        liver: OrganHumanLiver
+        kidneys: OrganHumanKidneys
+      right_arm:
+        part: RightArmPixie
+        connections:
+        - right_hand
+      left_arm:
+        part: LeftArmPixie
+        connections:
+        - left_hand
+      right_hand:
+        part: RightHandPixie
+      left_hand:
+        part: LeftHandPixie
+      right_leg:
+        part: RightLegPixie
+        connections:
+        - right_foot
+      left_leg:
+        part: LeftLegPixie
+        connections:
+        - left_foot
+      right_foot:
+        part: RightFootPixie
+      left_foot:
+        part: LeftFootPixie

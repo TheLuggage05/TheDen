@@ -1,0 +1,210 @@
+- type: entity
+  save: false
+  name: Urist McPixie
+  parent: [ BaseMobSpeciesOrganic, StorableSpecies ]
+  id: BaseMobPixie
+  abstract: true
+  components:
+  - type: Hunger
+  - type: Thirst
+  - type: Icon
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: full
+  - type: Sprite
+    noRot: true
+    drawdepth: Mobs
+  - type: Body
+    prototype: Pixie
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Pixie
+  - type: Bloodstream
+    bloodReagent: PixieBlood
+  - type: DamageVisuals
+    damageOverlayGroups:
+      Brute:
+        sprite: _DEN/Mobs/Effects/pixie_brute_damage.rsi
+        color: "#870e83"
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      90: Critical
+      180: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 2.5
+    baseSprintSpeed: 5.5
+    weightlessAcceleration: 1.2
+    weightlessFriction: 1
+    weightlessModifier: 1
+  - type: MovementIgnoreGravity
+    gravityState: true
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+      - id: FoodMeat
+        amount: 1
+  - type: FireVisuals
+    sprite: Mobs/Effects/onfire.rsi
+    normalState: Monkey_burning
+  - type: Tag
+    tags:
+    - VimPilot
+    - DoorBumpOpener
+    - CanPilot
+    - PixieEmotes
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 75
+        restitution: 0.0
+        mask:
+        - CrateMask
+        layer:
+        - MobLayer
+  - type: Physics
+    bodyStatus: InAir
+  - type: NoSlip
+  - type: CanMoveInAir
+  - type: TypingIndicator
+    proto: pixie
+  - type: Vocal
+    sounds:
+      Male: MaleHuman
+      Female: FemaleHuman
+      Unsexed: MaleHuman
+  - type: Speech
+    speechVerb: Pixie
+    speechSounds: Alto
+  - type: HumanoidAppearance
+    species: Pixie
+    hideLayersOnEquip:
+    - Hair
+    - Snout
+    - Tail
+  - type: Inventory
+    speciesId: pixie
+    templateID: pixie
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: jumpsuit
+      head:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: head
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: glasses
+      ears:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: ears
+      mask:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: mask
+      neck:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: neck
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: outerClothing
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: feet
+      belt:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: belt
+      back:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: back
+      suitstorage:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: suitstorage
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobPixieDummy
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+  - type: Inventory
+    templateID: pixie
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: jumpsuit
+      head:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: head
+      eyes:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: glasses
+      ears:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: ears
+      mask:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: mask
+      neck:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: neck
+      outerClothing:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: outerClothing
+      shoes:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: feet
+      belt:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: belt
+      back:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: back
+      suitstorage:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            state: suitstorage

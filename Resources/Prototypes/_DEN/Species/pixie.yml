@@ -1,0 +1,182 @@
+- type: species
+  id: Pixie
+  name: species-name-pixie
+  roundStart: true
+  prototype: BaseMobPixie
+  sprites: MobPixieSprites
+  defaultSkinTone: "#ffffff"
+  markingLimits: MobPixieMarkingLimits
+  dollPrototype: MobPixieDummy
+  skinColoration: Hues
+  maleFirstNames: NamesFirstMale
+  femaleFirstNames: NamesFirstFemale
+  lastNames: NamesLast
+
+- type: speciesBaseSprites
+  id: MobPixieSprites
+  sprites:
+    Eyes: MobHumanoidAnyMarking
+    Head: MobPixieHead
+    HeadTop: MobHumanoidAnyMarking
+    Hair: MobHumanoidAnyMarking
+    Chest: MobPixieTorso
+    LArm: MobPixieLArm
+    RArm: MobPixieRArm
+    LHand: MobPixieLHand
+    RHand: MobPixieRHand
+    LLeg: MobPixieLLeg
+    RLeg: MobPixieRLeg
+    LFoot: MobPixieLFoot
+    RFoot: MobPixieRFoot
+    Tail: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
+
+- type: markingPoints
+  id: MobPixieMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 1
+      required: false
+    Eyes:
+      points: 1
+      required: true
+      defaultMarkings: [ PixieEyesDefault ]
+    Head:
+      points: 6
+      required: false
+    HeadTop:
+      points: 2
+      required: false
+    Chest:
+      points: 4
+      required: false
+    Undershirt:
+      points: 6
+      required: false
+    Underwear:
+      points: 6
+      required: false
+    Tail:
+      points: 2
+      required: true
+      defaultMarkings: [ PixieWingsAnimatedDefault ]
+    Snout:
+      points: 1
+      required: false
+    Overlay:
+      points: 1
+      required: false
+    RightLeg:
+      points: 6
+      required: false
+    RightFoot:
+      points: 6
+      required: false
+    LeftLeg:
+      points: 6
+      required: false
+    LeftFoot:
+      points: 6
+      required: false
+    RightArm:
+      points: 6
+      required: false
+    RightHand:
+      points: 6
+      required: false
+    LeftArm:
+      points: 6
+      required: false
+    LeftHand:
+      points: 6
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobPixieEyes
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+
+- type: humanoidBaseSprite
+  id: MobPixieHead
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobPixieHeadMale
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobPixieHeadFemale
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: head_f
+
+- type: humanoidBaseSprite
+  id: MobPixieTorso
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobPixieTorsoMale
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobPixieTorsoFemale
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: torso_f
+
+- type: humanoidBaseSprite
+  id: MobPixieLLeg
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobPixieLHand
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobPixieLArm
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobPixieLFoot
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobPixieRLeg
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobPixieRHand
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobPixieRArm
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobPixieRFoot
+  baseSprite:
+    sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: r_foot
