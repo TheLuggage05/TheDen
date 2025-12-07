@@ -138,3 +138,10 @@
           groups:
             Brute: -3
             Burn: -1.25
+
+- type: reagent
+  parent: Blood
+  id: PixieBlood
+  name: reagent-name-pixie-blood
+  desc: reagent-desc-pixie-blood
+  color: "#870e83"

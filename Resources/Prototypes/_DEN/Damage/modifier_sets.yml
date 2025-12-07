@@ -21,3 +21,14 @@
     Heat: 0.8
     Cold: 0.8
     Shock: 0.8
+
+- type: damageModifierSet
+  id: Pixie
+  coefficients:
+    Piercing: 1.4
+    Slash: 1.4
+    Blunt: 1.4
+    Heat: 0.6
+    Cold: 0.6
+    Shock: 0.6
+    Radiation: 0.6

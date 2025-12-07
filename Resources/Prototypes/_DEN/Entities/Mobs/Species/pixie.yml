@@ -13,6 +13,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Mobs
+  - type: Carriable
   - type: Body
     prototype: Pixie
   - type: Damageable
@@ -20,6 +21,13 @@
     damageModifierSet: Pixie
   - type: Bloodstream
     bloodReagent: PixieBlood
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Aural
+    understands:
+    - TauCetiBasic
+    - Aural
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
