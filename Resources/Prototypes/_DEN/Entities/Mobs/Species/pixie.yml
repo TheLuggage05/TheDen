@@ -94,62 +94,62 @@
     - Tail
   - type: Inventory
     speciesId: pixie
-    templateID: pixie
+    templateId: pixie
     displacements:
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: jumpsuit
       head:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: head
       eyes:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: glasses
       ears:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: ears
       mask:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: mask
       neck:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: neck
       outerClothing:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: outerClothing
       shoes:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: feet
       belt:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: belt
       back:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: back
       suitstorage:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: suitstorage
 
 - type: entity
@@ -159,60 +159,61 @@
   components:
   - type: Sprite
   - type: Inventory
-    templateID: pixie
+    speciesId: pixie
+    templateId: pixie
     displacements:
       jumpsuit:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: jumpsuit
       head:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: head
       eyes:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: glasses
       ears:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: ears
       mask:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: mask
       neck:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: neck
       outerClothing:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: outerClothing
       shoes:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: feet
       belt:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: belt
       back:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: back
       suitstorage:
         sizeMaps:
           32:
-            sprite: _Impstation/Mobs/Species/Apid/displacement.rsi
+            sprite: _DEN/Mobs/Species/Pixie/displacement.rsi
             state: suitstorage

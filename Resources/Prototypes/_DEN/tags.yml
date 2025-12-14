@@ -106,6 +106,9 @@
   id: OviniaEmotes
 
 - type: Tag
+  id: PixieEmotes
+
+- type: Tag
   id: PulsePDW #BSO Webbing Sprite
 
 - type: Tag

@@ -2,7 +2,7 @@
   id: Pixie
   name: species-name-pixie
   roundStart: true
-  prototype: BaseMobPixie
+  prototype: MobPixie
   sprites: MobPixieSprites
   defaultSkinTone: "#ffffff"
   markingLimits: MobPixieMarkingLimits
@@ -40,8 +40,8 @@
       required: false
     Eyes:
       points: 1
-      required: true
-      defaultMarkings: [ PixieEyesDefault ]
+      required: false
+#      defaultMarkings: [ PixieEyesDefault ]
     Head:
       points: 6
       required: false
@@ -59,8 +59,8 @@
       required: false
     Tail:
       points: 2
-      required: true
-      defaultMarkings: [ PixieWingsAnimatedDefault ]
+      required: false
+#      defaultMarkings: [ PixieWingsAnimatedDefault ]
     Snout:
       points: 1
       required: false
@@ -96,6 +96,7 @@
   id: MobPixieEyes
   baseSprite:
     sprite: _DEN/Mobs/Species/Pixie/parts.rsi
+    state: eyes
 
 - type: humanoidBaseSprite
   id: MobPixieHead

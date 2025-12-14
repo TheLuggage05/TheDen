@@ -19,7 +19,7 @@
   components:
   - type: Sprite
     sprite: _DEN/Mobs/Species/Pixie/parts.rsi
-    state: "torso"
+    state: "torso_m"
   - type: Extractable
     juiceSolution:
       reagents:
@@ -35,7 +35,7 @@
   components:
   - type: Sprite
     sprite: _DEN/Mobs/Species/Pixie/parts.rsi
-    state: "head"
+    state: "head_m"
   - type: Extractable
     juiceSolution:
       reagents:

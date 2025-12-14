@@ -13,10 +13,10 @@
     torso:
       part: TorsoPixie
       connections:
-      - right_arm
-      - left_arm
-      - right_leg
-      - left_leg
+      - right arm
+      - left arm
+      - right leg
+      - left leg
       - head # shitmed
       organs:
         heart: OrganHumanHeart
@@ -24,27 +24,27 @@
         stomach: OrganHumanStomach
         liver: OrganHumanLiver
         kidneys: OrganHumanKidneys
-      right_arm:
-        part: RightArmPixie
-        connections:
-        - right_hand
-      left_arm:
-        part: LeftArmPixie
-        connections:
-        - left_hand
-      right_hand:
-        part: RightHandPixie
-      left_hand:
-        part: LeftHandPixie
-      right_leg:
-        part: RightLegPixie
-        connections:
-        - right_foot
-      left_leg:
-        part: LeftLegPixie
-        connections:
-        - left_foot
-      right_foot:
-        part: RightFootPixie
-      left_foot:
-        part: LeftFootPixie
+    right arm:
+      part: RightArmPixie
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmPixie
+      connections:
+      - left hand
+    right hand:
+      part: RightHandPixie
+    left hand:
+      part: LeftHandPixie
+    right leg:
+      part: RightLegPixie
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegPixie
+      connections:
+      - left foot
+    right foot:
+      part: RightFootPixie
+    left foot:
+      part: LeftFootPixie
