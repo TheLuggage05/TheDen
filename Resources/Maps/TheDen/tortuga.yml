@@ -2,16 +2,17 @@
 # SPDX-FileCopyrightText: 2025 Mono
 # SPDX-FileCopyrightText: 2025 This_Is_Gray
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Gregg
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 meta:
   format: 7
   category: Map
-  engineVersion: 267.2.0
+  engineVersion: 267.3.0
   forkId: ""
   forkVersion: ""
-  time: 10/29/2025 03:09:32
+  time: 01/07/2026 06:25:34
   entityCount: 32517
 maps:
 - 35
@@ -13145,8 +13146,8 @@ entities:
         - volume: 2500
           temperature: 235
           moles:
-            Oxygen: 21.824879
-            Nitrogen: 82.10312
+            Oxygen: 27.225372
+            Nitrogen: 102.419266
         - volume: 2500
           temperature: 293.15
           moles:
@@ -16431,7 +16432,7 @@ entities:
       pos: -76.5,26.5
       parent: 33
     - type: Door
-      secondsUntilStateChange: -17238.766
+      secondsUntilStateChange: -17504.947
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 3
@@ -69345,6 +69346,14 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -101.5,-74.5
       parent: 33
+- proto: ComputerStationJobsConsole
+  entities:
+  - uid: 901
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -33.5,67.5
+      parent: 33
 - proto: ComputerStationRecords
   entities:
   - uid: 5432
@@ -69364,6 +69373,12 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -49.5,31.5
+      parent: 33
+  - uid: 902
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -33.5,68.5
       parent: 33
   - uid: 5710
     components:
@@ -82713,16 +82728,6 @@ entities:
       parent: 33
 - proto: filingCabinet
   entities:
-  - uid: 901
-    components:
-    - type: Transform
-      pos: -33.5,67.5
-      parent: 33
-  - uid: 902
-    components:
-    - type: Transform
-      pos: -33.5,68.5
-      parent: 33
   - uid: 8507
     components:
     - type: Transform
@@ -84794,7 +84799,7 @@ entities:
       pos: -93.5,13.5
       parent: 33
     - type: Door
-      secondsUntilStateChange: -49641.13
+      secondsUntilStateChange: -49907.31
       state: Closing
   - uid: 21648
     components:
@@ -85059,7 +85064,7 @@ entities:
       pos: -87.5,-12.5
       parent: 33
     - type: Door
-      secondsUntilStateChange: -69573.75
+      secondsUntilStateChange: -69839.93
       state: Closing
   - uid: 28518
     components:
@@ -88877,7 +88882,6 @@ entities:
     - type: GasFilter
       filteredGas: Oxygen
       transferRate: 200
-      enabled: True
     - type: AtmosPipeColor
       color: '#0055CCFF'
 - proto: GasMinerCarbonDioxide
@@ -99676,6 +99680,12 @@ entities:
       parent: 33
     - type: AtmosPipeColor
       color: '#990000FF'
+  - uid: 20584
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -18.5,69.5
+      parent: 33
   - uid: 20586
     components:
     - type: Transform
@@ -121664,14 +121674,6 @@ entities:
       parent: 33
     - type: AtmosPipeColor
       color: '#0055CCFF'
-  - uid: 20584
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -18.5,69.5
-      parent: 33
-    - type: AtmosPipeColor
-      color: '#990000FF'
   - uid: 20585
     components:
     - type: Transform
@@ -128870,7 +128872,7 @@ entities:
     - type: Transform
       pos: 85.5,87.5
       parent: 33
-- proto: GlassBoxLaserFilled
+- proto: GlassBoxLaser
   entities:
   - uid: 479
     components:
@@ -150568,6 +150570,14 @@ entities:
     components:
     - type: Transform
       pos: -47.5,-29.5
+      parent: 33
+- proto: PaperStolenWeapon
+  entities:
+  - uid: 27387
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -0.5061646,67.52373
       parent: 33
 - proto: PartRodMetal
   entities:
@@ -172316,7 +172326,7 @@ entities:
       pos: -35.5,-2.5
       parent: 33
     - type: Door
-      secondsUntilStateChange: -61478.59
+      secondsUntilStateChange: -61744.77
       state: Opening
   - uid: 10765
     components:
@@ -204176,14 +204186,6 @@ entities:
     components:
     - type: Transform
       pos: -16.500237,80.97449
-      parent: 33
-- proto: WeaponLauncherRocket
-  entities:
-  - uid: 27387
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.5061646,67.52373
       parent: 33
 - proto: WeaponPistolFlintlock
   entities:
